@@ -1,14 +1,34 @@
 public class Plot_Test {
     public static void main(String[] args) {
 
-      Person owner = new Person("Ahmed", 12, "12/04/2002",  null);
-//        Person owner = new Person();
-        Plot newPlot = new Plot();
+        Person owner = new Person(
+                "Ahmed",
+                12,
+                "12/04/2002",
+                "+92-012-3456789");
 
-        newPlot.setOwner(owner);
 
 
-        newPlot.getOwner().print();
+        Plot dhaPlot = new Plot(
+                "Residential",
+                10,
+                10,
+                25000,
+                23,
+                "Clay",
+                "Grassland",
+                "33mm" );
+
+
+
+        dhaPlot.setOwner(owner);
+
+
+
+    if(dhaPlot.getOwner()!=null) {dhaPlot.getOwner().print();}
+
+
+        dhaPlot.print();
     }
 
 

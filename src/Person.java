@@ -13,7 +13,7 @@ public class Person {
     public Person() {}
 
     public void print(){
-        System.out.printf("OWNER OF LAND%nName:%s%nAge:%d%nDOB:%s%nContact:%s", name, age, date_of_birth, contact);
+        System.out.printf("OWNER OF LAND%nName:%s%nAge:%d%nDOB:%s%nContact:%s%n", name, age, date_of_birth, contact);
     }
 
 
