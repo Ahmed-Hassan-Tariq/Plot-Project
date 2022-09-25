@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Plot_Test {
     public static void main(String[] args) {
 
@@ -19,14 +21,11 @@ public class Plot_Test {
                 "Grassland",
                 "33mm" );
 
-
-
         dhaPlot.setOwner(owner);
 
+//        dhaPlot.instance_Setter();
 
-
-    if(dhaPlot.getOwner()!=null) {dhaPlot.getOwner().print();}
-
+        if(dhaPlot.getOwner()!=null) {dhaPlot.getOwner().print();}
 
         dhaPlot.print();
     }
